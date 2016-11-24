@@ -15,7 +15,7 @@ deals with the so-called _trajectories_ of natural numbers. It is called **Colla
 conjecture** or, alternatively, **Half-or-Triple-Plus-One** (HOTPO).
 
 Learn on [Wikipedia](https://en.wikipedia.org/wiki/Collatz_conjecture) what
-trajectories are all about and how you can compute them for each given natural n,
+trajectories are all about and how you can compute them for each given natural N,
 supposedly ending up always in **1**.
 
 # Assignment
