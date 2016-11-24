@@ -18,11 +18,11 @@ Learn on [Wikipedia](https://en.wikipedia.org/wiki/Collatz_conjecture) what
 trajectories are all about and how you can compute them for each given natural n,
 supposedly ending up always in **1**.
 
-# Problem
-We ask you to design a **distributed client/server computing architecture** (see below)
-whose plumbing is based on YARP to progressively verify the **HOTPO** conjecture.
-The clients will thus perform concurrent verifications running on a cluster of
-computers.
+# Assignment
+We ask you to design a **distributed client/server computing architecture**
+(see the figure below) whose plumbing is based on YARP to progressively verify
+the **HOTPO** conjecture. The clients will thus perform concurrent verifications
+running on a cluster of computers.
 
 ![architecture](/misc/architecture.png)
 
@@ -74,6 +74,6 @@ A **Bottle** whose format is:
 - **vocab_item** is a proper identifier.
 - **N** is the natural for which a test is required against the threshold **T**.
 
-# How to complete this assignment
+# How to complete the assignment
 - **Students** are required to follow these [instructions](https://education.github.com/guide/forks#3-completing-assignments) and fill in the [code](/code) directory.
 - **Reviewers** are required to follow these [instructions](https://education.github.com/guide/forks#4-reviewing-assignments).
