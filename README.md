@@ -49,29 +49,29 @@ following policy:
     removes the corresponding element from FIFO.
 - **Monitor periodically the content of FIFO** in search of those elements which
 have not been removed since long. These elements might be possible counterexamples
-to the conjecture.
+to the conjecture. It is sufficient to **report the content of FIFO at a given rate**.
 
 ## Protocol
 
-### Client => Server request
+### Client :arrow_right: Server request
 A **Bottle** whose format is:
 
 | Header | Payload |
 | :---: | :---: |
 | **vocab_req** | **n** |
 
-- **vocab_req** is a proper identifier
+- **vocab_req** is a proper identifier.
 - **n** corresponds to the natural whose previous test was successful, or is **0**
 at start-up.
 
-### Server => Client response
+### Server :arrow_right: Client response
 A **Bottle** whose format is:
 
 | Header | payload |
 | :---: | :---: |
 | **vocab_item** | **n**,**t** |
 
-- **vocab_item** is a proper identifier
+- **vocab_item** is a proper identifier.
 - **n** is the natural for which a test is required against the threshold **t**.
 
 # How to deal with this assignment
