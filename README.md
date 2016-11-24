@@ -16,11 +16,11 @@ conjecture** or, alternatively, **Half-or-Triple-Plus-One** (HOTPO).
 
 Learn on [Wikipedia](https://en.wikipedia.org/wiki/Collatz_conjecture) what
 trajectories are all about and how you can compute them for each given natural n,
-supposedly ending up always in 1.
+supposedly ending up always in **1**.
 
 # Problem
 We ask you to design a **distributed client/server computing architecture** (see below)
-whose plumbing is based on YARP to progressively verify the HOTPO conjecture.
+whose plumbing is based on YARP to progressively verify the **HOTPO** conjecture.
 The clients will thus perform concurrent verifications running on a cluster of
 computers.
 
@@ -29,10 +29,10 @@ computers.
 ## Client Side
 The Client is required to:
 - Talk to the Server according to this [**protocol**](#protocol).
-The Client requests the Server to obtain a **natural n and a threshold t** to then
+The Client requests the Server to obtain a **natural N and a threshold T** to then
 give back the **test outcome**.
-- **Verify the pair (n,t)**. The test terminates successfully if, at any step, the
-trajectory of n becomes lower than or equal to t. Conversely, the test will not
+- **Verify the pair (N,T)**. The test terminates successfully if, at any step, the
+trajectory of N becomes lower than or equal to T. Conversely, the test will not
 terminate; therefore, the Server is responsible for constantly monitoring the
 current state of pending requests.
 
@@ -43,7 +43,7 @@ The Server is required to:
 following policy:
     1. At start-up, the counter **CNT is initialized equal to 0**.
     2. At each request received from Client C, CNT is increased and pushed back
-    into FIFO, while the pair **(CNT,head-1)** is provided to C, being head the
+    into FIFO, while the pair **(CNT,HEAD-1)** is provided to C, being HEAD the
     element stored at the top of FIFO.
     3. If the Client request contains the outcome of a test, then the Server
     removes the corresponding element from FIFO.
@@ -58,10 +58,10 @@ A **Bottle** whose format is:
 
 | Header | Payload |
 | :---: | :---: |
-| **vocab_req** | **n** |
+| **vocab_req** | **N** |
 
 - **vocab_req** is a proper identifier.
-- **n** corresponds to the natural whose previous test was successful, or is **0**
+- **N** corresponds to the natural whose previous test was successful, or is **0**
 at start-up.
 
 ### Server :arrow_right: Client response
@@ -69,10 +69,10 @@ A **Bottle** whose format is:
 
 | Header | payload |
 | :---: | :---: |
-| **vocab_item** | **n**,**t** |
+| **vocab_item** | **N**, **T** |
 
 - **vocab_item** is a proper identifier.
-- **n** is the natural for which a test is required against the threshold **t**.
+- **N** is the natural for which a test is required against the threshold **T**.
 
 # How to complete this assignment
 - **Students** are required to follow these [instructions](https://education.github.com/guide/forks#3-completing-assignments) and fill in the [code](/code) directory.
