@@ -76,9 +76,9 @@ A **Bottle** whose format is:
 
 # How to complete the assignment
 - **Students** are required to follow these instructions:
-    1. To start, [**fork the repository**](https://guides.github.com/activities/forking/) by clicking on the [invitation link](https://classroom.github.com/assignment-invitations/cf638c49aa7f83e39b0598829c410605).
+    1. To start, [fork the repository](https://guides.github.com/activities/forking/) by clicking on the [**invitation link**](https://classroom.github.com/assignment-invitations/cf638c49aa7f83e39b0598829c410605).
     2. [**Clone**](http://gitref.org/creating/#clone) the repository to your computer.
-    3. Fill in the [code](/code) directory and [**commit**](http://gitref.org/basic/#commit) changes to complete your solution.
+    3. Fill in the [**code directory**](/code) and [**commit**](http://gitref.org/basic/#commit) changes to complete your solution.
     4. [**Push**](http://gitref.org/remotes/#push)/sync the changes up to GitHub.
     5. [Create a **pull request**](https://help.github.com/articles/creating-a-pull-request) on the original repository to turn in the assignment.
 - **Reviewers** are required to follow these instructions:
