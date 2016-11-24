@@ -81,6 +81,8 @@ A **Bottle** whose format is:
     3. Fill in the [**code directory**](/code) and [**commit**](http://gitref.org/basic/#commit) changes to complete your solution.
     4. [**Push**](http://gitref.org/remotes/#push)/sync the changes up to GitHub.
     5. [Create a **pull request**](https://help.github.com/articles/creating-a-pull-request) on the original repository to turn in the assignment.
+    
 - **Reviewers** are required to follow these instructions:
-    - Once created, you can then do code review with line-by-line feedback directly within the pull request. If students are allowed to submit corrections, they can push fixes up to their forks, which will be reflected in the pull request.
-    - Since we don't want any solutions in the original assignment repository, you should **leave the pull request unmerged**. When you're finished giving feedback, you can close the pull request and leave a :+1: (`:+1:`) in a final comment.
+    - Once created, you can then do **code review** with line-by-line feedback directly within the pull request. If students are allowed to submit corrections, they can push fixes up to their forks, which will be reflected in the pull request.
+    - Since we don't want any solutions in the original assignment repository, you should **leave the pull request unmerged**.
+    - When you're finished giving feedback, you can **close the pull request** and leave a :+1: (`:+1:`) in a final comment.
