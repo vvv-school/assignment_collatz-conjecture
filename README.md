@@ -19,7 +19,7 @@ trajectories are all about and how you can compute them for each given natural n
 supposedly ending up always in 1.
 
 # Problem
-We aim to design a **distributed client/server computing architecture** (see below)
+We ask you to design a **distributed client/server computing architecture** (see below)
 whose plumbing is based on YARP to progressively verify the HOTPO conjecture.
 The clients will thus perform concurrent verifications running on a cluster of
 computers.
