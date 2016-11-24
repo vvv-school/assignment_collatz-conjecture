@@ -29,8 +29,8 @@ running on a cluster of computers.
 ## Client Side
 The Client is required to:
 - Talk to the Server according to this [**protocol**](#protocol).
-The Client requests the Server to obtain a **natural N and a threshold T** to then
-give back the **test outcome**.
+- The Client requests the Server to obtain a **natural N and a threshold T** to
+then give back the **test outcome**.
 - **Verify the pair (N,T)**. The test terminates successfully if, at any step, the
 trajectory of N becomes lower than or equal to T. Conversely, the test will not
 terminate; therefore, the Server is responsible for constantly monitoring the
