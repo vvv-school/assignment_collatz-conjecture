@@ -29,7 +29,7 @@ running on a cluster of computers.
 ## Client Side
 The Client is required to:
 - Talk to the Server according to this [**protocol**](#protocol).
-- The Client requests the Server to obtain a **natural N and a threshold T** to
+- The Client requests the Server to obtain a **natural N** and a **threshold T** to
 then give back the **test outcome**.
 - **Verify the pair (N,T)**. The test terminates successfully if, at any step, the
 trajectory of N becomes lower than or equal to T. Conversely, the test will not
@@ -42,8 +42,8 @@ The Server is required to:
 - Handle a [**FIFO**](https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics))
 of pending requests received from the Clients according to the following policy:
     1. At start-up, the counter **CNT is initialized equal to 0**.
-    2. At each request received from Client C, CNT is increased and pushed back
-    into FIFO, while the pair **(CNT,HEAD-1)** is provided to C, being HEAD the
+    2. At each request received from Client _Ci_, CNT is increased and pushed back
+    into FIFO, while the pair **(CNT,HEAD-1)** is provided to _Ci_, being HEAD the
     element stored at the top of FIFO.
     3. If the Client request contains the outcome of a test, then the Server
     removes the corresponding element from FIFO.
