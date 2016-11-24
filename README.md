@@ -74,6 +74,6 @@ A **Bottle** whose format is:
 - **vocab_item** is a proper identifier.
 - **n** is the natural for which a test is required against the threshold **t**.
 
-# How to deal with this assignment
-- **Students** are required to follow these [instructions](https://education.github.com/guide/forks#3-completing-assignments).
+# How to complete this assignment
+- **Students** are required to follow these [instructions](https://education.github.com/guide/forks#3-completing-assignments) and fill in the [code](/code) directory.
 - **Reviewers** are required to follow these [instructions](https://education.github.com/guide/forks#4-reviewing-assignments).
