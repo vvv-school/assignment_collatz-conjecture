@@ -12,7 +12,7 @@ You should know what the following classes are up to:
 # Preamble
 There exists a beautiful and yet undemonstrated conjecture in Mathematics that
 deals with the so-called _trajectories_ of natural numbers. It is called **Collatz
-conjecture** or, alternatively, **Half-or-Triple-Plus-One** (HOTPO).
+conjecture** or, alternatively, **Half-Or-Triple-Plus-One** (HOTPO).
 
 Learn on [Wikipedia](https://en.wikipedia.org/wiki/Collatz_conjecture) what
 trajectories are all about and how you can compute them for each given natural N,
@@ -39,8 +39,8 @@ current state of pending requests.
 ## Server Side
 The Server is required to:
 - Communicate with the Clients according to this [**protocol**](#protocol).
-- Handle a **FIFO** of pending requests received from the Clients according to the
-following policy:
+- Handle a [**FIFO**](https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics))
+of pending requests received from the Clients according to the following policy:
     1. At start-up, the counter **CNT is initialized equal to 0**.
     2. At each request received from Client C, CNT is increased and pushed back
     into FIFO, while the pair **(CNT,HEAD-1)** is provided to C, being HEAD the
