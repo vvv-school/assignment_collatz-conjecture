@@ -24,7 +24,7 @@ whose plumbing is based on YARP to progressively verify the HOTPO conjecture.
 The clients will thus perform concurrent verifications running on a cluster of
 computers.
 
-![architecture](/misc/architecture.png).
+![architecture](/misc/architecture.png)
 
 ## Client Side
 The Client is required to:
