@@ -2,6 +2,7 @@ Message Passing with YARP
 =========================
 
 # Prerequisites
+You should know what the following classes are up to:
 - [yarp::os::Thread](http://www.yarp.it/classyarp_1_1os_1_1Thread.html).
 - [yarp::os::RateThread](http://www.yarp.it/classyarp_1_1os_1_1RateThread.html).
 - [yarp::os::Semaphore](http://www.yarp.it/classyarp_1_1os_1_1Semaphore.html).
@@ -27,7 +28,7 @@ computers.
 
 ## Client Side
 The Client is required to:
-- Talk to the Server according to this [**protocol**](https://github.com/vvv-school/collatz-conjecture#Protocol).
+- Talk to the Server according to this [**protocol**](#protocol).
 The Client requests the Server to obtain a **natural n and a threshold t** to then
 give back the **test outcome**.
 - **Verify the pair (n,t)**. The test terminates successfully if, at any step, the
@@ -37,7 +38,7 @@ current state of pending requests.
 
 ## Server Side
 The Server is required to:
-- Communicate with the Clients according to this [**protocol**](https://github.com/vvv-school/collatz-conjecture#Protocol).
+- Communicate with the Clients according to this [**protocol**](#protocol).
 - Handle a **FIFO** of pending requests received from the Clients according to the
 following policy:
     1. At start-up, the counter **CNT is initialized equal to 0**.
@@ -54,6 +55,7 @@ to the conjecture.
 
 ### Client => Server request
 A **Bottle** whose format is:
+
 | Header | Payload |
 | :---: | :---: |
 | **vocab_req** | **n** |
@@ -64,6 +66,7 @@ at start-up.
 
 ### Server => Client response
 A **Bottle** whose format is:
+
 | Header | payload |
 | :---: | :---: |
 | **vocab_item** | **n**,**t** |
@@ -72,5 +75,5 @@ A **Bottle** whose format is:
 - **n** is the natural for which a test is required against the threshold **t**.
 
 # How to deal with this assignment
-- Students are required to follow these [instructions](https://education.github.com/guide/forks#3-completing-assignments).
-- Reviewers are required to follow these [instructions](https://education.github.com/guide/forks#4-reviewing-assignments).
+- **Students** are required to follow these [instructions](https://education.github.com/guide/forks#3-completing-assignments).
+- **Reviewers** are required to follow these [instructions](https://education.github.com/guide/forks#4-reviewing-assignments).
