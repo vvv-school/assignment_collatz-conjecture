@@ -12,7 +12,7 @@ You should know what the following classes are up to:
 # Preamble
 There exists a beautiful and yet undemonstrated conjecture in Mathematics that
 deals with the so-called _trajectories_ of natural numbers. It is called **Collatz
-conjecture** or, alternatively, **Half-Or-Triple-Plus-One** (HOTPO).
+conjecture**.
 
 Learn on [Wikipedia](https://en.wikipedia.org/wiki/Collatz_conjecture) what
 trajectories are all about and how you can compute them for each given natural N,
@@ -21,7 +21,7 @@ supposedly ending up always in **1**.
 # Assignment
 We ask you to design a **distributed client/server computing architecture**
 (see the figure below) whose plumbing is based on YARP to progressively verify
-the **HOTPO** conjecture. The clients will thus perform concurrent verifications
+the **Collatz conjecture**. The clients will thus perform concurrent verifications
 running on a cluster of computers.
 
 ![architecture](/misc/architecture.png)
