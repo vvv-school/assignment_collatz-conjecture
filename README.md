@@ -11,7 +11,7 @@ You should know what the following classes are up to:
 
 # Preamble
 There exists a beautiful and yet undemonstrated conjecture in Mathematics that
-deals with the so-called _trajectories_ of natural numbers. It is called **Collatz
+deals with the so-called _trajectories_ of natural numbers. It is called the **Collatz
 conjecture**.
 
 Learn on [Wikipedia](https://en.wikipedia.org/wiki/Collatz_conjecture) what
