@@ -41,7 +41,7 @@ The Server is required to:
 - Communicate with the Clients according to this [**protocol**](#protocol).
 - Handle a [**FIFO**](https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics))
 of pending requests received from the Clients according to the following policy:
-    1. At start-up, the counter **CNT is initialized equal to 0**.
+    1. At start-up, the counter **CNT is initialized equal to 1**.
     2. At each request received from Client _Ci_, CNT is increased and pushed back
     into FIFO, while the pair **(CNT,HEAD-1)** is provided to _Ci_, being HEAD the
     element stored at the top of FIFO.
