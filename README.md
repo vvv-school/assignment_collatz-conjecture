@@ -76,13 +76,12 @@ A **Bottle** whose format is:
 
 # How to complete the assignment
 - **Students** are required to follow these instructions:
-    1. To start, [fork the repository](https://guides.github.com/activities/forking/) by clicking on the [**invitation link**](https://classroom.github.com/assignment-invitations/cf638c49aa7f83e39b0598829c410605).
-    2. [**Clone**](http://gitref.org/creating/#clone) the repository to your computer.
-    3. Fill in the [**code directory**](/code) and [**commit**](http://gitref.org/basic/#commit) changes to complete your solution.
-    4. [**Push**](http://gitref.org/remotes/#push)/sync the changes up to GitHub.
-    5. [Create a **pull request**](https://help.github.com/articles/creating-a-pull-request) on the original repository to turn in the assignment.
+    1. To start, click on the [**invitation link**](https://classroom.github.com/assignment-invitations/cf638c49aa7f83e39b0598829c410605).
+    2. Create a new branch from `master`: call it as your username.
+    3. [**Clone**](http://gitref.org/creating/#clone) the repository to your computer.
+    4. Fill in the [**code directory**](/code) and [**commit**](http://gitref.org/basic/#commit) changes to complete your solution.
+    5. [**Push**](http://gitref.org/remotes/#push)/sync the changes up to GitHub.
+    6. [Create a **pull request**](https://help.github.com/articles/creating-a-pull-request) with `master` as base branch and mention any reviewer to turn in the assignemnt.
     
 - **Reviewers** are required to follow these instructions:
-    1. Once created, you can then do **code review** with line-by-line feedback directly within the pull request. If students are allowed to submit corrections, they can push fixes up to their forks, which will be reflected in the pull request.
-    2. Since we don't want any solutions in the original assignment repository, you should **leave the pull request unmerged**.
-    3. When you're finished giving feedback, you can **close the pull request** and leave a :+1: (`:+1:`) in a final comment.
+    1. Once created, you can then do [**code review**](https://help.github.com/articles/about-pull-request-reviews) with line-by-line feedback directly within the pull request.
