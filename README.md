@@ -76,12 +76,12 @@ A **Bottle** whose format is:
 
 # How to complete the assignment
 - **Students** are required to follow these instructions:
-    1. To start, click on the [**invitation link**](https://classroom.github.com/assignment-invitations/cf638c49aa7f83e39b0598829c410605).
-    2. Create a new branch from `master`: call it as your username.
+    1. To start, click on the **invitation link** that teachers emailed you.
+    2. [Create a **new branch**](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/) from `master`: call it as your `username`.
     3. [**Clone**](http://gitref.org/creating/#clone) the repository to your computer.
     4. Fill in the [**code directory**](/code) and [**commit**](http://gitref.org/basic/#commit) changes to complete your solution.
     5. [**Push**](http://gitref.org/remotes/#push)/sync the changes up to GitHub.
-    6. [Create a **pull request**](https://help.github.com/articles/creating-a-pull-request) with `master` as base branch and mention any reviewer to turn in the assignment.
+    6. [Create a **pull request**](https://help.github.com/articles/creating-a-pull-request) with `master` as _base branch_ and `username` as _compare branch_. Then, [**mention** any review](https://help.github.com/articles/basic-writing-and-formatting-syntax/#mentioning-users-and-teams) to turn in the assignment.
     
 - **Reviewers** are required to follow these instructions:
     1. Once created, you can then do [**code review**](https://help.github.com/articles/about-pull-request-reviews) with line-by-line feedback directly within the pull request.
