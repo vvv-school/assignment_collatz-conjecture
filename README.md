@@ -86,7 +86,7 @@ A **Bottle** whose format is:
 
 - **Teachers** are required to follow these instructions:
     1. Once created, you can then do [**code review**](https://help.github.com/articles/about-pull-request-reviews) with line-by-line feedback directly within the pull request.
-    2. Within the pull request, try to provide also a brief summary touching general remarks such as:
+    2. Within the pull request, try to provide also a **brief summary** touching general remarks such as:
         - Did the student **comment** the code sufficiently?
         - Is the code **cross-compilable**?
         - To which **extent** are the requirements accomplished?
