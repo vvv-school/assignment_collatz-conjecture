@@ -90,7 +90,7 @@ A **Bottle** whose format is:
 ## Reviewing Notes for Teachers
 In case the student **did not create a new branch**, you can still launch a PR based review by doing:
 
-1. Identify in the student repository a suitable **initial commit**, which should roughly correspond to the last commit of the starter code.
+1. Identify within the student repository the **last commit of the starter code**.
 2. Create a **new branch** from that commit; call it `review-teacherusername`.
 3. Start a **pull request** with `review-teachernusername` as _base branch_ and `master` as _compare branch_.
 4. You can now do **code review** as explained above.
