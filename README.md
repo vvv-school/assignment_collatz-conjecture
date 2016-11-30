@@ -76,17 +76,17 @@ A **Bottle** whose format is:
 
 # How to complete the assignment
 - **Students** are required to follow these instructions:
-    1. To start, click on the **invitation link** that teachers emailed you. A **new repository** will be spawned from this one, where you can collect your work.
-    2. [Create a **new branch**](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/) from `master`; you may call it with your `username`.
+    1. To start, click on the **invitation link** that teachers emailed you. A **new repository** will be spawned from this one, where you can provide your solution.
+    2. [Create a **new branch**](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/) from `master`; you may call it as your `username`.
     3. [**Clone**](http://gitref.org/creating/#clone) the repository to your computer.
-    4. Fill in the [**code directory**](/code) and [**commit**](http://gitref.org/basic/#commit) changes to complete your solution.
+    4. Fill in the **gaps** and [**commit**](http://gitref.org/basic/#commit) changes to complete your solution.
     5. [**Push**](http://gitref.org/remotes/#push)/sync the changes up to GitHub.
     6. [Create a **pull request**](https://help.github.com/articles/creating-a-pull-request) with `master` as _base branch_ and `username` as _compare branch_.
     7. Within the pull request, [**mention** any teacher](https://help.github.com/articles/basic-writing-and-formatting-syntax/#mentioning-users-and-teams) to turn in the assignment.
-    
+
 - **Teachers** are required to follow these instructions:
     1. Once created, you can then do [**code review**](https://help.github.com/articles/about-pull-request-reviews) with line-by-line feedback directly within the pull request.
-    
+
 ## Reviewing Notes for Teachers
 In case the student **did not create a new branch**, you can still launch a PR based review by doing:
 
