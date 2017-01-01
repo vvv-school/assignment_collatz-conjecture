@@ -74,4 +74,4 @@ A **Bottle** whose format is:
 - **vocab_item** is a proper identifier.
 - **N** is the natural for which a test is required against the threshold **T**.
 
-# [How to complete the assignment](https://github.com/vvv-school/vvv-school.github.io/wiki/How-to-complete-assignments)
+# [How to complete the assignment](https://github.com/vvv-school/vvv-school.github.io/blob/master/instructions/how-to-complete-assigments.md)
