@@ -4,15 +4,14 @@ Message Passing with YARP
 # Prerequisites
 You should know what the following classes are up to:
 - [yarp::os::Thread](http://www.yarp.it/classyarp_1_1os_1_1Thread.html).
-- [yarp::os::RateThread](http://www.yarp.it/classyarp_1_1os_1_1RateThread.html).
-- [yarp::os::Semaphore](http://www.yarp.it/classyarp_1_1os_1_1Semaphore.html).
+- [yarp::os::PeriodicThread](http://yarp.it/classyarp_1_1os_1_1PeriodicThread.html).
+- [yarp::os::Mutex](http://yarp.it/classyarp_1_1os_1_1Mutex.html).
 - [yarp::os::Port](http://www.yarp.it/classyarp_1_1os_1_1Port.html).
 - [yarp::os::Bottle](http://www.yarp.it/classyarp_1_1os_1_1Bottle.html).
 
 # Preamble
 There exists a beautiful and yet undemonstrated conjecture in Mathematics that
-deals with the so-called _trajectories_ of natural numbers. It is called the **Collatz
-conjecture**.
+deals with the so-called _trajectories_ of natural numbers. It is called the **Collatz conjecture**.
 
 Learn on [Wikipedia](https://en.wikipedia.org/wiki/Collatz_conjecture) what
 trajectories are all about and how you can compute them for each given natural N,
@@ -21,8 +20,7 @@ supposedly ending up always in **1**.
 # Assignment
 We ask you to design a **distributed client/server computing architecture**
 (see the figure below) whose plumbing is based on YARP to progressively verify
-the **Collatz conjecture**. The clients will thus perform concurrent verifications
-running on a cluster of computers.
+the **Collatz conjecture**. The clients will thus perform concurrent verification running on a cluster of computers.
 
 ![architecture](/misc/architecture.png)
 
