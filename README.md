@@ -5,7 +5,6 @@ Message Passing with YARP
 You should know what the following classes are up to:
 - [yarp::os::Thread](http://www.yarp.it/classyarp_1_1os_1_1Thread.html).
 - [yarp::os::PeriodicThread](http://yarp.it/classyarp_1_1os_1_1PeriodicThread.html).
-- [yarp::os::Mutex](http://yarp.it/classyarp_1_1os_1_1Mutex.html).
 - [yarp::os::Port](http://www.yarp.it/classyarp_1_1os_1_1Port.html).
 - [yarp::os::Bottle](http://www.yarp.it/classyarp_1_1os_1_1Bottle.html).
 
