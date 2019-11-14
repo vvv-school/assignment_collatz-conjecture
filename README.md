@@ -1,6 +1,8 @@
 Message Passing with YARP
 =========================
 
+[![Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://www.gitpod.io/docs/10_getting_started)
+
 # Prerequisites
 You should know what the following classes are up to:
 - [yarp::os::Thread](http://www.yarp.it/classyarp_1_1os_1_1Thread.html).
