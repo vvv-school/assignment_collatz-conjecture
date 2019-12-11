@@ -1,7 +1,7 @@
 Message Passing with YARP
 =========================
 
-[![Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://www.gitpod.io/docs/10_getting_started)
+[![Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/vvv-school/assignment_collatz-conjecture)
 
 # Prerequisites
 You should know what the following classes are up to:
