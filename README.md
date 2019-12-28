@@ -23,7 +23,7 @@ We ask you to design a **distributed client/server computing architecture**
 (see the figure below) whose plumbing is based on YARP to progressively verify
 the **Collatz conjecture**. The clients will thus perform concurrent verification running on a cluster of computers.
 
-![architecture](/misc/architecture.png)
+![architecture](/assets/architecture.png)
 
 ## Client Side
 The Client is required to:
