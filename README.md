@@ -66,7 +66,7 @@ at start-up.
 ### Server :arrow_right: Client response
 A **Bottle** whose format is:
 
-| Header | payload |
+| Header | Payload |
 | :---: | :---: |
 | **vocab_item** | **N**, **T** |
 
